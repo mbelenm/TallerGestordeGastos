@@ -1,0 +1,20 @@
+{
+  "name": "expense-tracker-workshop",
+  "version": "1.0.0",
+  "description": "Plantilla práctica de taller SDD + BDD + TDD con Claude",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/ --ext .ts",
+    "build": "tsc"
+  },
+  "keywords": ["tdd", "bdd", "sdd", "claude", "workshop"],
+  "author": "Workshop Lead",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}
